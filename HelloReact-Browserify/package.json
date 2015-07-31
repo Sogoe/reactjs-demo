@@ -1,0 +1,23 @@
+{
+  "name": "hello-react-browserify",
+  "version": "1.0.0",
+  "description": "react demos",
+  "main": "app.js",
+  "author": "Mr.Lan",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "start": "gulp browserify",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
